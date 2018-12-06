@@ -19,7 +19,7 @@ Provide baisc CRUD without BDs storing.
 - GEt listhttp://localhost:1234/
 - GET detail http://localhost:1234/users/123?team=zenith
 - POST http://localhost:1234/users 
-#### Using x-www-form-urllendcoded or curl -F "name=Joe Smith" http://localhost:1234/users
+#### (*) Using x-www-form-urllendcoded or curl -F "name=Joe Smith" http://localhost:1234/users
 - PUT http://localhost:1234/users/123
 - DELETE http://localhost:1234/users/123
 	
