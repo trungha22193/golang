@@ -36,5 +36,6 @@ $ sqlite3 storage.db
 
 ## User Interface
 - $ ./server
-- Open http://localhost:1234/
+- Click on http://localhost:1234/ to see App as below
+
 ![Screenshot](api_demo.png)
