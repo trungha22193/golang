@@ -9,4 +9,4 @@ Welcome to Golang Examples and Applications. Attention with below information:
 - Chapter 1: Basic Golang programming in "/baisc" directory
 - Chapter 2: A bit advance for Golanign APIs by using Echo framework
 	- 2.1 Quick start at "advance/echo/quickstart" folder
-	- 2.2 Appa and UI at "advance/echo/beginner" folder
+	- 2.2 APIs and App with User Interface at "advance/echo/beginner" folder
