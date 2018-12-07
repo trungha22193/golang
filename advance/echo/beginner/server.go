@@ -6,6 +6,7 @@ import (
 	"database/sql"
 	_ "github.com/mattn/go-sqlite3"
 	"my-echo-vue/handlers"
+	"go/build"
 	)
 
 func main() {
@@ -27,7 +28,8 @@ func main() {
 	// 	})
 
 	// ############# Level 2 #############
-	e.File("/", "public/index.html")
+	gopath := build.Default.GOPATH
+	e.File("/", gopath + "/src/my-echo-vue/public/index.html")
 	e.GET("/tasks", handlers.GetTasks(db))
     e.PUT("/tasks", handlers.PutTask(db))
     e.DELETE("/tasks/:id", handlers.DeleteTask(db))
