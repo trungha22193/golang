@@ -4,6 +4,11 @@ Provide CRUD Apps with SQLite3
 # GuideLine
 - Step 1: get Source Code
 - Step 2: setup GOPATH
+	Example:
+	```
+	export GOPATH=$HOME/golang
+	export PATH=$GOPATH/bin:$PATH
+	```
 - Step 3: execute below command below
 	- $ go get github.com/labstack/echo
 	- $ go get github.com/mattn/go-sqlite3
