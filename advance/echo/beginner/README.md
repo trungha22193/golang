@@ -25,7 +25,7 @@ $ sqlite3 storage.db
 
 
 ## API list
-- GEt list http://localhost:1234/tasks
+- GET list http://localhost:1234/tasks
 - PUT http://localhost:1234/users 
 ```
 {
@@ -35,5 +35,5 @@ $ sqlite3 storage.db
 - DELETE http://localhost:1234/tasks/1
 
 ## User Interface
-- $ go run server.go 
+- $ ./server
 - Open http://localhost:1234/

@@ -19,7 +19,7 @@ Provide baisc CRUD without BDs storing.
 	```
 
 ## API list
-- GEt listhttp://localhost:1234/
+- GET listhttp://localhost:1234/
 - GET detail http://localhost:1234/users/123?team=zenith
 - POST http://localhost:1234/users 
 (*) <i> Using x-www-form-urllendcoded or curl -F "name=Joe Smith" http://localhost:1234/users </i>
