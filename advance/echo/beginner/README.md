@@ -1,7 +1,7 @@
-# Feature Overview
+## Feature Overview
 Provide CRUD Apps with SQLite3 
 
-# GuideLine
+## GuideLine
 - Step 1: get Source Code
 - Step 2: setup GOPATH
 	Example:
@@ -24,3 +24,16 @@ $ sqlite3 storage.db
 
 
 
+## API list
+- GEt list http://localhost:1234/tasks
+- PUT http://localhost:1234/users 
+```
+{
+    "name": "Zenith"
+}
+```
+- DELETE http://localhost:1234/tasks/1
+
+## User Interface
+- $ go run server.go 
+- Open http://localhost:1234/

@@ -1,7 +1,7 @@
-# Feature Overview
+## Feature Overview
 Provide baisc CRUD without BDs storing.
 
-# Guiline to setup
+## Guiline to setup
 - Setup Golang by https://golang.org/dl/
 - Setup GOPATH by https://github.com/golang/go/wiki/SettingGOPATH
 	Example:
@@ -15,11 +15,11 @@ Provide baisc CRUD without BDs storing.
 	### cd ~/golang/advance/echo/quickstart && go run server.go
 
 
-# API list
+## API list
 - GEt listhttp://localhost:1234/
 - GET detail http://localhost:1234/users/123?team=zenith
 - POST http://localhost:1234/users 
-#### (*) Using x-www-form-urllendcoded or curl -F "name=Joe Smith" http://localhost:1234/users
+(*) <i> Using x-www-form-urllendcoded or curl -F "name=Joe Smith" http://localhost:1234/users </i>
 - PUT http://localhost:1234/users/123
 - DELETE http://localhost:1234/users/123
 	
