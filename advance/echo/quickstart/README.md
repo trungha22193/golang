@@ -10,10 +10,13 @@ Provide baisc CRUD without BDs storing.
 	export PATH=$GOPATH/bin:$PATH
 	```
 - Run command line to get Echo Framrework
-	### cd [project_folder] && go get -u github.com/labstack/echo/...
+	```
+	$ cd [project_folder] && go get -u github.com/labstack/echo/...
+	```
 - Execute Apps as below
-	### cd ~/golang/advance/echo/quickstart && go run server.go
-
+	```
+	$ cd ~/golang/advance/echo/quickstart && go run server.go
+	```
 
 ## API list
 - GEt listhttp://localhost:1234/
