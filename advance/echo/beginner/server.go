@@ -4,7 +4,7 @@ import (
 	//_ "github.com/labstack/echo/engine/stardard"
 	_ "fmt"
 	"database/sql"
-	_ "github.com/mattn/go-sqlite3"
+	_ "github.com/mattn/go-sqlite3"			// --> Must be here. If not, show ERROR
 	"my-echo-vue/handlers"
 	"go/build"
 	)

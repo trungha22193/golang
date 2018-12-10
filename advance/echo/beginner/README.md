@@ -1,5 +1,6 @@
 ## Feature Overview
-Provide CRUD Apps with SQLite3 
+- Provide CRUD Apps with SQLite3 
+- The <b>_ "github.com/mattn/go-sqlite3"</b> has to be top of "server.go". Vice versa, show ERROR
 
 ## GuideLine
 - Step 1: get Source Code
