@@ -24,7 +24,7 @@ func GetTasks(db *sql.DB) TaskCollection {
 	result := TaskCollection{}
 	for rows.Next() {
 		task := Task{}
-		errRow := rows.Scan(&task.ID, &task.Name)
+		errRow := rows.Scan(&task.ID, &task.Name)			// --> must use "&", Pointer, to fetch data like  ##rows.Scan(&task.ID, &task.Name)##
 		if errRow != nil {
 			panic(errRow)
 		}
