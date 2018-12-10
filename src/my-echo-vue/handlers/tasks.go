@@ -29,7 +29,7 @@ func PutTask(db *sql.DB) echo.HandlerFunc {
 		// ############# Level 1 ending #############
 
 		var task models.Task
-		c.Bind(&task)
+		c.Bind(&task)								// must use "&" ~ Pointer, to map data like `c.Bind(&task)`
 		id, err := models. PutTask(db, task.Name)
 		if err != nil {
 			return err

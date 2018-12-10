@@ -4,6 +4,7 @@
 ### Technical advices
 - The <b>`_ "github.com/mattn/go-sqlite3"`</b> has to be top of <b>"server.go"</b>. Vice versa, show <b>ERROR</b>
 - Must use "&" ~ Pointer, to fetch data like  `rows.Scan(&task.ID, &task.Name)`
+- Must use "&" ~ Pointer, to map data like `c.Bind(&task)`
 
 ## GuideLine
 - Step 1: get Source Code
