@@ -4,6 +4,7 @@ Welcome to Golang Examples and Applications. Attention with below information:
 - <b>$ go get</b>: Used to fetch library. Don't use "dep", "glide" or "govender"
 - <b> "src/" folder</b>: Only contain customized code from import(). 
 - <b> Installation </b>: Put on README.md file of separated directory of each application.
+- The version is `go version go1.11.2 darwin/amd64`
 
 ## Table of Content
 - Chapter 1: Basic Golang programming in "/basic" directory
