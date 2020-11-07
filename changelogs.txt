@@ -21,4 +21,5 @@ For Cron example:
 
 ############################################################
 
-
+[*] [2020/11/07] [JS/RAN][S][DBDA-1576] Audience Fulfillment Hourse CRUD
+    |- POST /audience/v2/fulfillment_house_issues
