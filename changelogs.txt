@@ -1,0 +1,24 @@
+[*] Improvement
+[+] New feature
+[-] Bug fixing
+[yyyy/mm/dd]: Date Format
+[SC]: S - SQL/BigQuery change || C - Cronjob schedule
+
+Structure:
+[*] [YYYY/MM/DD] [Service][SubTask][JIRA] Title
+
+For API example:
+[*] [YYYY/MM/DD] [JS/RAN][S][DBDA-1576] Audience Fulfillment Hourse CRUD
+    |- POST /audience/v2/fulfillment_house_issues
+    |- GET /audience/v2/fulfillment_house_issues/{id}
+    |- PUT /audience/v2/fulfillment_house_issues/{id}
+    |- URL reference: [If needed]
+
+For Cron example:
+[+] [2019/01/01] [JS/RAN][C][DBDA-1593] Write a script to upload CRM data to SFTP
+    |- 59 23 * * * ~/start_crm_data_upload_staging
+    |- URL reference: [If needed]
+
+############################################################
+
+
